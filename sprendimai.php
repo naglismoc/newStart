@@ -258,12 +258,12 @@ function multiply($a, $b){
     return $a * $b;
 }
 
-function circleArea($r){
+function circleArea($r = 0){
     return  myPi() * ($r * $r);
 }
 
 
-function circleLength ($r){
+function circleLength ($r = 0){
     return 2* myPi() * $r;
 }
 
